@@ -40,13 +40,14 @@ def containsDuplicate(nums):
 # If the element already exists in hashset, retur True - there's a duplicate
 
 
-def containsDuplicate(nums):
-    seen = {}
-    for i, n in enumerate(nums):
-        if n in seen:
-            return True
-        seen[i] = n
-    return False
+# def containsDuplicate(nums):
+# issue ????
+#     seen = {}
+#     for i, n in enumerate(nums):
+#         if n in seen:
+#             return True
+#         seen[i] = n
+#     return False
 
 
 def containsDuplicate(nums):
